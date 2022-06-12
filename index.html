@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing Survey Form</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div id="main-el">
+        <!-- <h1>Please fill the information below</h1> -->
+        <img src="salsa.jpg" alt="picture of dansing">
+        <div id="cont-el">
+            <form id="besic-info-el" >
+                <p>* 1. Please provide some basic information:</p>
+                <label for="fname">*First name:</label>
+                <input type="text" id="fname-el" name="fname" class="font-cont-el"required>
+
+                <label for="lname">*Last name:</label>
+                <input type="text" id="lname-el" name="lname" class="font-cont-el" required>
+
+                <label for="gender-el">*Gender:</label>
+                <input type="text" id="gender-el" name="gender" class="font-cont-el" required>
+
+                <label for="email">*Email Address:</label>
+                <input type="email" id="email-el" name="email" class="font-cont-el" required>
+
+                <label for="phone">*Phone Number :</label>
+                <input type="number" id="phone-el" name="phone" class="font-cont-el">
+
+                <br>
+                
+                <label for="dansing"><p>* 2. Choose from dancing course: <em>(all classes cost the same 950 kr)</em></p> </label> 
+               
+
+                
+                <select id="dans-el">
+
+                <option value="emty"class="font-cont-el">Choose classes </option>
+                <option value="salsa-beginner"class="font-cont-el">Salsa beginner</option>
+                <option value="salsa-intermediate"class="font-cont-el">Salsa intermediate</option>
+                <option value="batchata-beginner"class="font-cont-el">Batchata beginner</option>
+                <option value="salsa-intermediate"class="font-cont-el">Batchata intermediate</option>
+                <option value="kizomba-beginner"class="font-cont-el">Kizomba beginner</option>
+                <option value="tango-beginner"class="font-cont-el">Tango beginner</option>
+                </select> 
+
+                <br>
+
+                <form id="lvl-info-el">
+                    <p>* 3. Do you have any previous dancing experience:</p>
+                    <label > Beginner</label>
+                    <input type="radio" name="beginner" value="beginner" class="input-radio">
+                    
+                    <label > Intermediate</label>
+                    <input type="radio"  name="intermediate" value="Intermediate"class="input-radio">
+                    
+                    <label > Advanced </label>
+                    <input type="radio" name="advanced" value="Advanced"class="input-radio">
+                    
+                    
+                  </form>
+
+                <br>
+
+                <label for="singel-or-partner"><p>* 4. How will you be attending:</p></label>
+                
+                <select id="sp-el">
+                <option value="emty"> Singel or with a partner</option>
+                <option value="single">Single</option>
+                <option value="partner">Partner</option>
+                
+                </select> 
+                <br>
+                
+
+                <form action="" method="GET">
+                    <p>Please enter anything else we need to know</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." spellcheck="false"></textarea>
+                </form>
+
+                <button type="submit" id="submit-el" class="submit-button">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

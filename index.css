@@ -1,0 +1,134 @@
+img{
+    background-image: url("salsa.jpg");
+    width: 900px;
+}
+h1{
+    align-content: center;
+    align-items: center;
+}
+
+body{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: rgb(28, 10, 0); */
+    background-color: #d08792;
+    /* width: 90%;
+    font-weight: 400 bold;
+    line-height: 1.4;
+    color: white; */
+    
+}
+
+#cont-el{
+    background-color: #0c0707;
+    width: 100%;
+   /*  margin: 0 auto 1.25rem auto;
+    padding: 0.25rem; */
+    font-weight: 400 bold;
+    line-height: 1.4;
+    color: white;
+}
+
+#div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black; 
+    
+    margin: 10px 0 10px 0
+}
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: #d08792;
+}
+
+.font-cont-el{
+    display: block;
+    width: 90%;
+    height: 20px;
+    padding:8px 8px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;}
+
+.input-radio, .input-checkbox {
+        display: inline-block;
+        margin-right: 0.625rem;
+        min-height: 1.25rem;
+        min-width: 1.25rem;}
+
+#dans-el, #sp-el{
+    display: block;
+    width: 90%;
+    height: 40px;
+    padding:8px 8px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s;
+    color: #d08792;
+    
+}
+
+textarea {
+    writing-mode: horizontal-tb !important;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    padding: 2px;
+    /* width: 570px;
+    height: 78px; */
+    width: 884px;
+    height: 83px;
+  
+}
+
+
+p{
+    font-size: 1.125rem;
+    color: #d08792;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background: #753c4c;
+    color: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: larger;
+   /*  margin-left: 10px; */
+    /* margin-right: 50px; */
+    
+}
+
+button :hover{
+    background-color:#002ead;
+    transition: 0.2s;
+
+}
+
